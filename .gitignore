@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Temporary / Generated Data
+data/temp/
+data/vectordb/
+data/processed/*
+!data/processed/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/sample_policy.md
+_temp_pdf/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
